@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ description or conference.subtitle + ' in ' + conference.location }}">
     <title>{{ title or conference.title }}</title>
+    <link rel="icon" href="/assets/logo.png" type="image/png">
     <link rel="preload" href="/assets/berlin-brandenburg-gate.jpg" as="image">
     <link rel="stylesheet" href="/assets/styles.css">
   </head>
@@ -12,7 +13,7 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <aside class="site-sidebar" aria-label="Conference navigation">
       <a class="brand" href="/" aria-label="{{ conference.title }} home">
-        <span class="brand-mark">DSN</span>
+        <img class="brand-logo" src="/assets/logo.png" alt="" width="120" height="101">
         <span>
           <span class="brand-title">{{ conference.title }}</span>
           <span class="brand-subtitle">{{ conference.location }}</span>

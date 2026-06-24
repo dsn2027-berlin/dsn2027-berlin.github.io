@@ -94,7 +94,6 @@ Current important assets:
 
 - `logo.png`: main DSN 2027 logo
 - `favicon.png`: 512 by 512 favicon
-- `favicon-32.png`: 32 by 32 favicon
 - `apple-touch-icon.png`: Apple touch icon
 - `berlin-brandenburg-gate.jpg`: homepage hero image
 - `styles.css`: site styles

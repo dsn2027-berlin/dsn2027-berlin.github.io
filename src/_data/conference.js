@@ -9,12 +9,12 @@ export default {
   roles: [
     {
       role: "General Co-Chair",
-      people: ["Marco Paolieri"],
+      people: ["Katinka Wolter", "Marco Paolieri"],
       status: "Listed",
     },
     {
       role: "PC Chairs",
-      people: ["Rüdiger Kapitza", "Homa"],
+      people: ["Rüdiger Kapitza", "Homa Alemzadeh"],
       status: "In progress",
     },
     { role: "Industry Track PC Chairs", people: [], status: "To be announced" },
@@ -44,7 +44,7 @@ export default {
       people: ["Justus Purat"],
       status: "Listed",
     },
-    { role: "Local Arrangements", people: [], status: "To be announced" },
+    { role: "Local Arrangements", people: ["Yanhua Chen"], status: "Listed" },
   ],
   potentialContributors: [
     "Andrea Ceccarelli",

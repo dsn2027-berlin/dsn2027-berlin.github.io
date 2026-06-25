@@ -255,6 +255,42 @@ a {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
 }
 
+.news-list {
+  margin: 0;
+  padding: 0 16px;
+  list-style: none;
+}
+
+.news-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eeeeee;
+  color: #333333;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.news-list li:last-child {
+  border-bottom: 0;
+}
+
+.news-date {
+  display: inline-block;
+  margin: 0 10px 8px 0;
+  padding: 5px 10px;
+  background: #4778ff;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.news-list a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
 .sponsors-band {
   padding: 32px 24px;
   background: var(--paper);

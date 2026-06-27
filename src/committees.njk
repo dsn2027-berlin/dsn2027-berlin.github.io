@@ -6,25 +6,60 @@ permalink: /committees/
 ---
 
 <section class="section page-title" aria-labelledby="page-title">
-  <p class="section-kicker">Committees</p>
-  <h1 id="page-title">Organizing roles</h1>
-  <p>Roles listed here reflect the current planning note and will be updated as appointments are confirmed.</p>
+  <h1 id="page-title"><b>Organizing Committee</b></h1>
 </section>
 
-<section class="section" aria-label="Organizing role list">
-  <div class="role-list">
-    {% for item in conference.roles %}
-      <article class="role-item">
-        <div>
-          <h2>{{ item.role }}</h2>
+<section class="section committee-section" aria-label="Organizing Committee">
+  <div class="committee-table-wrap">
+    <table class="committee-table">
+      <thead>
+        <tr>
+          <th class="committee-name-col">Name</th>
+          <th>Institution</th>
+          <th class="committee-country-col">Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in conference.roles %}
+          <tr class="committee-role-row">
+            <td colspan="3"><b>{{ item.role }}</b></td>
+          </tr>
           {% if item.people.length %}
-            <p>{{ item.people | join(", ") }}</p>
+            {% for person in item.people %}
+              {% set personName = person.name or person %}
+              <tr>
+                <td class="committee-name">
+                  <div class="committee-person">
+                    {% if person.photo %}
+                      <img class="committee-photo" src="{{ person.photo }}" alt="{{ personName }}" width="80" height="80">
+                    {% else %}
+                      <div class="committee-avatar" aria-hidden="true">{{ personName | committeeInitials }}</div>
+                    {% endif %}
+                    {% if person.url %}
+                      <a href="{{ person.url }}" target="_blank" rel="noopener">{{ personName }}</a>
+                    {% else %}
+                      <span>{{ personName }}</span>
+                    {% endif %}
+                  </div>
+                </td>
+                <td>{{ person.institution }}</td>
+                <td>{{ person.country }}</td>
+              </tr>
+            {% endfor %}
           {% else %}
-            <p>To be announced</p>
+            <tr class="committee-pending-row">
+              <td class="committee-name">
+                <div class="committee-person">
+                  <div class="committee-avatar committee-avatar-pending" aria-hidden="true">TBA</div>
+                  <span>To be announced</span>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
           {% endif %}
-        </div>
-        <span class="pill">{{ item.status }}</span>
-      </article>
-    {% endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
 </section>

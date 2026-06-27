@@ -17,7 +17,6 @@ export const roles = [
         photo: "/assets/committees/marco-paolieri.png",
       },
     ],
-    status: "Listed",
   },
   {
     role: "Program Committee Chairs",
@@ -35,23 +34,21 @@ export const roles = [
         country: "USA",
       },
     ],
-    status: "In progress",
   },
-  { role: "Industry Track Chairs", people: [], status: "To be announced" },
-  { role: "Artifact Chairs", people: [], status: "To be announced" },
-  { role: "Disrupt 2027", people: [], status: "To be announced" },
-  { role: "Workshop Chairs", people: [], status: "To be announced" },
-  { role: "Poster Chairs", people: [], status: "To be announced" },
-  { role: "Doctoral Forum Chairs", people: [], status: "To be announced" },
-  { role: "Tutorial Chairs", people: [], status: "To be announced" },
-  { role: "Mentoring Program Chairs", people: [], status: "To be announced" },
-  { role: "Publication Chairs", people: [], status: "To be announced" },
-  { role: "Publicity Chairs", people: [], status: "To be announced" },
-  { role: "Social Media Chair", people: [], status: "To be announced" },
+  { role: "Industry Track Chairs", people: [] },
+  { role: "Artifact Chairs", people: [] },
+  { role: "Disrupt 2027", people: [] },
+  { role: "Workshop Chairs", people: [] },
+  { role: "Poster Chairs", people: [] },
+  { role: "Doctoral Forum Chairs", people: [] },
+  { role: "Tutorial Chairs", people: [] },
+  { role: "Mentoring Program Chairs", people: [] },
+  { role: "Publication Chairs", people: [] },
+  { role: "Publicity Chairs", people: [] },
+  { role: "Social Media Chair", people: [] },
   {
     role: "Finance and Student Travel Grant Chairs",
     people: [],
-    status: "To be announced",
   },
   {
     role: "Webmaster Chair",
@@ -62,9 +59,8 @@ export const roles = [
         country: "Germany",
       },
     ],
-    status: "Listed",
   },
-  { role: "Sponsorship Chairs", people: [], status: "To be announced" },
+  { role: "Sponsorship Chairs", people: [] },
   {
     role: "Visa and Registration Chair",
     people: [
@@ -75,7 +71,6 @@ export const roles = [
         country: "Germany",
       },
     ],
-    status: "Listed",
   },
   {
     role: "Local Arrangement Chair",
@@ -85,55 +80,6 @@ export const roles = [
         institution: "Lanzhou University",
         country: "China",
       },
-    ],
-    status: "Listed",
-  },
-];
-
-export const potentialContributors = [
-  "Andrea Ceccarelli",
-  "Domenico Cotroneo",
-  "Elena Trubytsina",
-  "Peter Popov",
-  "Karthik Pattabiraman",
-  "Behrooz Sangchoolie",
-  "Sara Bouchenak",
-];
-
-export const planningIdeas = [
-  {
-    area: "Industry",
-    people: [
-      "Marco Platania, AT&T, USA",
-      "Behrooz Sangchoolie, RISE, Sweden",
-      "Michael Paulitsch, Intel, Germany",
-      "Raffaele Della Corte, Federico II University of Naples, Italy",
-      "Subho Banerjee",
-    ],
-    note: "Ideas from Cristina and Karthik; includes references from DSN 2025 planning.",
-  },
-  {
-    area: "Disrupt",
-    people: ["Marcus Volp", "Andrea Bondavalli", "Andrea Ceccarelli"],
-  },
-  {
-    area: "Artifact",
-    people: [
-      "Carmine Cesarano, University of Naples Federico II",
-      "Zitao Chen",
-      "Christoph Fetzer and students",
-    ],
-  },
-  {
-    area: "Workshop",
-    people: ["Sara Bouchenak", "Paolo Rech", "Ghassan Karame"],
-  },
-  {
-    area: "Tutorial",
-    people: [
-      "Horst Schrimeier",
-      "Pramod Bhatotia, TU Munich",
-      "Jean-Pierre Seiffert",
     ],
   },
 ];

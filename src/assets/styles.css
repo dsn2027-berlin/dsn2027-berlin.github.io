@@ -6,10 +6,8 @@
   --paper: #f1f1f1;
   --surface: #ffffff;
   --line: #d6d6d6;
-  --panel: #eeeeee;
   --link: #244dba;
   --blue: var(--link);
-  --green: #2e6d58;
   --shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -370,112 +368,6 @@ a {
   text-align: left;
 }
 
-.section-heading {
-  max-width: 780px;
-  margin-bottom: 2rem;
-}
-
-.section-cards {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.section-card {
-  display: grid;
-  gap: 0.45rem;
-  min-height: 150px;
-  align-content: end;
-  padding: 1.2rem;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  color: inherit;
-  text-decoration: none;
-  box-shadow: 0 10px 26px rgba(24, 33, 47, 0.06);
-}
-
-.section-card:hover,
-.section-card:focus-visible {
-  border-color: var(--indigo);
-}
-
-.section-card span {
-  color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.section-card strong {
-  font-size: 1.1rem;
-  line-height: 1.25;
-}
-
-.role-groups {
-  display: grid;
-  gap: 2rem;
-}
-
-.role-group {
-  border-top: 3px solid var(--indigo);
-  padding-top: 1.5rem;
-}
-
-.potential-list h3,
-.potential-list h2,
-.idea-item h2 {
-  margin: 0 0 1rem;
-  font-size: 1.35rem;
-  line-height: 1.2;
-}
-
-.role-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.role-item {
-  min-height: 132px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1.2rem;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  box-shadow: 0 10px 26px rgba(24, 33, 47, 0.06);
-}
-
-.role-item h2,
-.role-item h3,
-.role-item p {
-  margin: 0;
-}
-
-.role-item h2,
-.role-item h3 {
-  margin-bottom: 0.35rem;
-  font-size: 1.05rem;
-  line-height: 1.3;
-}
-
-.role-item p {
-  color: var(--muted);
-}
-
-.pill {
-  flex: 0 0 auto;
-  max-width: 10rem;
-  padding: 0.35rem 0.55rem;
-  background: #eef4f4;
-  color: var(--green);
-  font-size: 0.78rem;
-  font-weight: 800;
-  line-height: 1.1;
-  text-align: center;
-}
-
 .committee-section {
   padding-top: 12px;
 }
@@ -571,44 +463,6 @@ a {
   color: var(--muted);
 }
 
-.planning {
-  border-top: 1px solid var(--line);
-}
-
-.planning-layout {
-  display: grid;
-  grid-template-columns: minmax(260px, 0.75fr) minmax(0, 1.25fr);
-  gap: 1.5rem;
-}
-
-.potential-list,
-.idea-item {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  padding: 1.25rem;
-}
-
-.potential-list ul,
-.idea-item ul {
-  margin: 0;
-  padding-left: 1.15rem;
-}
-
-.potential-list li,
-.idea-item li {
-  margin: 0.25rem 0;
-}
-
-.idea-list {
-  display: grid;
-  gap: 1rem;
-}
-
-.idea-item p {
-  margin: 0.9rem 0 0;
-  color: var(--muted);
-}
-
 .placeholder-section {
   padding-top: 0;
 }
@@ -620,19 +474,6 @@ a {
   border: 1px solid var(--line);
   color: var(--muted);
   font-size: 1.05rem;
-}
-
-.committee-people {
-  margin: 0;
-  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  color: var(--ink);
-  font-size: 1.05rem;
-}
-
-.committee-people li {
-  margin: 0.25rem 0;
 }
 
 .conference-list {
@@ -724,8 +565,7 @@ a {
     text-decoration: none;
   }
 
-  .home-columns,
-  .planning-layout {
+  .home-columns {
     grid-template-columns: 1fr;
   }
 
@@ -737,23 +577,12 @@ a {
     font-size: 34px;
   }
 
-  .role-list,
-  .conference-list li,
-  .section-cards {
+  .conference-list li {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 520px) {
-  .role-item {
-    display: grid;
-  }
-
-  .pill {
-    max-width: none;
-    justify-self: start;
-  }
-
   .home-header h2,
   .home-header p {
     font-size: 20px;

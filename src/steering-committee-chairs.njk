@@ -1,0 +1,116 @@
+---
+layout: base.njk
+title: DSN 2027 Steering Committee
+description: DSN 2027 steering committee chairs, members, and charter.
+permalink: /committees/steering-committee-chairs/
+---
+
+<section class="section page-title" aria-labelledby="page-title">
+  <h1 id="page-title"><b>Steering Committee Chairs</b></h1>
+</section>
+
+<section class="section committee-section" aria-label="Steering Committee Chairs">
+  <div class="committee-table-wrap">
+    <table class="committee-table">
+      <thead>
+        <tr>
+          <th class="committee-name-col">Name</th>
+          <th>Institution</th>
+          <th class="committee-country-col">Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in conference.steeringCommitteeChairs %}
+          <tr class="committee-role-row">
+            <td colspan="3"><b>{{ item.role }}</b></td>
+          </tr>
+          {% for person in item.people %}
+            {% set personName = person.name or person %}
+            <tr>
+              <td class="committee-name">
+                <div class="committee-person">
+                  {% if person.photo %}
+                    <img class="committee-photo" src="{{ person.photo }}" alt="{{ personName }}" width="80" height="80">
+                  {% else %}
+                    <div class="committee-avatar" aria-hidden="true">{{ personName | committeeInitials }}</div>
+                  {% endif %}
+                  {% if person.url %}
+                    <a href="{{ person.url }}" target="_blank" rel="noopener">{{ personName }}</a>
+                  {% else %}
+                    <span>{{ personName }}</span>
+                  {% endif %}
+                </div>
+              </td>
+              <td>{{ person.institution }}</td>
+              <td>{{ person.country }}</td>
+            </tr>
+          {% endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section page-title" aria-labelledby="steering-committee-title">
+  <h1 id="steering-committee-title"><b>Steering Committee</b></h1>
+</section>
+
+<section class="section committee-section" aria-label="Steering Committee">
+  <div class="committee-table-wrap">
+    <table class="committee-table">
+      <thead>
+        <tr>
+          <th class="committee-name-col">Name</th>
+          <th>Institution</th>
+          <th class="committee-country-col">Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for person in conference.steeringCommittee %}
+          {% set personName = person.name or person %}
+          <tr>
+            <td class="committee-name">
+              <div class="committee-person">
+                {% if person.photo %}
+                  <img class="committee-photo" src="{{ person.photo }}" alt="{{ personName }}" width="80" height="80">
+                {% else %}
+                  <div class="committee-avatar" aria-hidden="true">{{ personName | committeeInitials }}</div>
+                {% endif %}
+                <span>
+                  {% if person.url %}
+                    <a href="{{ person.url }}" target="_blank" rel="noopener">{{ personName }}</a>
+                  {% else %}
+                    {{ personName }}
+                  {% endif %}
+                  {% if person.note %}
+                    (
+                    {% if person.noteUrl %}
+                      <a href="{{ person.noteUrl }}" target="_blank" rel="noopener">{{ person.note }}</a>
+                    {% else %}
+                      {{ person.note }}
+                    {% endif %}
+                    )
+                  {% endif %}
+                </span>
+              </div>
+            </td>
+            <td>{{ person.institution }}</td>
+            <td>{{ person.country }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section page-title" aria-labelledby="steering-charter-title">
+  <h1 id="steering-charter-title"><b>Steering Committee Charter</b></h1>
+</section>
+
+<section class="section content-section" aria-label="Steering Committee Charter">
+  <p>
+    <a href="{{ conference.steeringCommitteeCharter.url }}" target="_blank" rel="noopener">
+      {{ conference.steeringCommitteeCharter.title }}
+    </a>
+  </p>
+</section>

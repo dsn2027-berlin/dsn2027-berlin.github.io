@@ -44,7 +44,9 @@ Each top-level page has one source file:
 - Call for Contributions: `src/call-for-contributions.md`,
   URL `/call-for-contributions/`
 - Workshops: `src/workshops.md`, URL `/workshops/`
-- Committees: `src/committees.njk`, URL `/committees/`
+- Organizing Committee: `src/committees.njk`, URL `/committees/`
+- Steering Committee: `src/steering-committee-chairs.njk`,
+  URL `/committees/steering-committee-chairs/`
 - Conference Program: `src/conference-program.md`,
   URL `/conference-program/`
 - Sponsors: `src/sponsors.md`, URL `/sponsors/`
@@ -75,12 +77,16 @@ src/_data/conference.js
 
 Use this file for content that appears in a loop or may be reused, such as:
 
-- committee roles and names
+- organizing committee roles and names
+- steering committee chairs
+- steering committee members and charter
 - previous DSN conference links
 - conference title, subtitle, location, and dates
 
-The Committees page renders `conference.roles` in order. Keep that order aligned
-with the DSN 2027 planning document.
+The Organizing Committee page renders `conference.roles` in order. Keep that
+order aligned with the DSN 2027 planning document. The Steering Committee
+page renders `conference.steeringCommitteeChairs`,
+`conference.steeringCommittee`, and `conference.steeringCommitteeCharter`.
 
 ## Assets
 

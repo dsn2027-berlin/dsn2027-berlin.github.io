@@ -40,7 +40,15 @@ export default {
       activeUrls: ["/workshops/", "/workshops/to-be-announced/"],
       children: [{ title: "To be announced", url: "/workshops/to-be-announced/" }],
     },
-    { title: "Committees", url: "/committees/" },
+    {
+      title: "Committees",
+      url: "/committees/",
+      activePrefix: "/committees/",
+      children: [
+        { title: "Organizing Committee", url: "/committees/" },
+        { title: "Steering Committee Chairs", url: "/committees/steering-committee-chairs/" },
+      ],
+    },
     {
       title: "Awards",
       url: "/awards/",

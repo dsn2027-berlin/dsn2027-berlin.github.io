@@ -46,6 +46,11 @@
         </a>
       </header>
       <main id="main">
+        <header class="conference-header" aria-labelledby="conference-title">
+          <h1 id="conference-title">{{ conference.title }}</h1>
+          <p class="conference-subtitle">{{ conference.subtitle }}</p>
+          <p class="conference-meta">{{ conference.location }}, {{ conference.dates }}</p>
+        </header>
         {{ content | safe }}
       </main>
       <footer class="site-footer">

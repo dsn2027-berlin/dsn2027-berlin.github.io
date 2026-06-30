@@ -1,0 +1,33 @@
+---
+layout: base.njk
+title: DSN 2027 Research Track Program Committee
+description: DSN 2027 Research Track Program Committee.
+permalink: /committees/research-track-program-committee/
+---
+
+<section class="section page-title" aria-labelledby="page-title">
+  <h1 id="page-title"><b>Research Track Program Committee</b></h1>
+</section>
+
+<section class="section committee-section" aria-label="Research Track Program Committee">
+  <div class="committee-table-wrap">
+    <table class="committee-table">
+      <thead>
+        <tr>
+          <th class="committee-name-col">Name</th>
+          <th>Affiliation</th>
+          <th class="committee-country-col">Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for person in conference.researchTrackProgramCommittee %}
+          <tr>
+            <td class="committee-name">{{ person.name }}</td>
+            <td>{{ person.affiliation }}</td>
+            <td>{{ person.country }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>

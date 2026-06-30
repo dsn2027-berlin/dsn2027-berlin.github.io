@@ -46,7 +46,8 @@ export default {
       activePrefix: "/committees/",
       children: [
         { title: "Organizing Committee", url: "/committees/" },
-        { title: "Steering Committee Chairs", url: "/committees/steering-committee-chairs/" },
+        { title: "Steering Committee", url: "/committees/steering-committee-chairs/" },
+        { title: "Research Track PC", url: "/committees/research-track-program-committee/" },
       ],
     },
     {

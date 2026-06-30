@@ -45,6 +45,9 @@ Each top-level page has one source file:
   URL `/call-for-contributions/`
 - Workshops: `src/workshops.md`, URL `/workshops/`
 - Organizing Committee: `src/committees.njk`, URL `/committees/`
+- Research Track Program Committee:
+  `src/research-track-program-committee.njk`,
+  URL `/committees/research-track-program-committee/`
 - Steering Committee: `src/steering-committee-chairs.njk`,
   URL `/committees/steering-committee-chairs/`
 - Conference Program: `src/conference-program.md`,
@@ -78,14 +81,18 @@ src/_data/conference.js
 Use this file for content that appears in a loop or may be reused, such as:
 
 - organizing committee roles and names
+- research track program committee members
 - steering committee chairs
 - steering committee members and charter
 - previous DSN conference links
 - conference title, subtitle, location, and dates
 
 The Organizing Committee page renders `conference.roles` in order. Keep that
-order aligned with the DSN 2027 planning document. The Steering Committee
-page renders `conference.steeringCommitteeChairs`,
+order aligned with the DSN 2027 planning document. The Research Track Program
+Committee page renders `conference.researchTrackProgramCommittee`, generated
+from `HotCRP.xlsx`; keep the data file UTF-8 because it contains accented
+names and affiliations. The Steering Committee page renders
+`conference.steeringCommitteeChairs`,
 `conference.steeringCommittee`, and `conference.steeringCommitteeCharter`.
 
 ## Assets

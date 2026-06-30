@@ -168,28 +168,28 @@ a {
   display: none;
 }
 
-.home-header {
+.conference-header {
   padding: 20px 16px 0;
 }
 
-.home-header h1,
-.home-header h2,
-.home-header p {
+.conference-header h1,
+.conference-header p {
   margin: 0 0 10px;
 }
 
-.home-header h1 {
+.conference-header h1 {
   color: var(--indigo);
   font-size: 36px;
   line-height: 1.2;
 }
 
-.home-header h2 {
+.conference-subtitle {
+  color: var(--ink);
   font-size: 24px;
   line-height: 1.35;
 }
 
-.home-header p {
+.conference-meta {
   color: var(--indigo);
   font-size: 24px;
   font-weight: 700;

@@ -6,6 +6,7 @@ import {
   steeringCommitteeCharter,
 } from "./committees.js";
 import previousConferences from "./previous-conferences.js";
+import researchTrackProgramCommittee from "./research-track-program-committee.js";
 
 export default {
   ...site,
@@ -13,5 +14,6 @@ export default {
   steeringCommittee,
   steeringCommitteeChairs,
   steeringCommitteeCharter,
+  researchTrackProgramCommittee,
   previousConferences,
 };

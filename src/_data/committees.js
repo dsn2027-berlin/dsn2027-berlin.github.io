@@ -49,9 +49,11 @@ export const roles = [
       },
       {
         name: "Rajarshi Chowdhury",
+        url: "https://chowdhury.now/",
         email: "rajarshi.chowdhury@oracle.com",
         institution: "Oracle",
         country: "USA",
+        photo: "/assets/committees/rajarshi-chowdhury.jpg",
       },
       {
         name: "Marco Platania",

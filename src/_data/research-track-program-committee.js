@@ -167,11 +167,6 @@ export default [
     "country": "Italy"
   },
   {
-    "name": "Etienne Rivière",
-    "affiliation": "UCLouvain",
-    "country": "Belgium"
-  },
-  {
     "name": "Evangelia Kalyvianaki",
     "affiliation": "University of Cambridge",
     "country": "United Kingdom"

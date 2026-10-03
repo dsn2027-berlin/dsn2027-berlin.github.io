@@ -1,10 +1,4 @@
 const placeholderPages = [
-  {
-    section: "Workshops",
-    title: "To be announced",
-    url: "/workshops/to-be-announced/",
-    summary: "Information about DSN 2027 workshops will be announced here.",
-  },
   { section: "Travel Grants", title: "Travel Grants", url: "/travel-grants/" },
   { section: "Travel Grants", title: "Student", url: "/travel-grants/student/" },
   { section: "Attend", title: "Attend", url: "/attend/" },
@@ -22,12 +16,7 @@ export default {
   items: [
     { title: "Home", url: "/" },
     { title: "Call for Contributions", url: "/call-for-contributions/" },
-    {
-      title: "Workshops",
-      url: "/workshops/",
-      activeUrls: ["/workshops/", "/workshops/to-be-announced/"],
-      children: [{ title: "To be announced", url: "/workshops/to-be-announced/" }],
-    },
+    { title: "Workshops", url: "/workshops/" },
     {
       title: "Committees",
       url: "/committees/",

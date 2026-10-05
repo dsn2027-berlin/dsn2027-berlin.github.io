@@ -12,7 +12,7 @@ The DSN 2027 Workshops aim to provide a forum where researchers can gather and e
 ### Important Dates
 
 - **Submission deadline:** January 13, 2027
-- **Notification to organizers:** Date to be confirmed
+- **Notification to organizers:** January 27, 2027
 
 ### List of Topics
 

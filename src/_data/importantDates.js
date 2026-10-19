@@ -24,6 +24,17 @@ export default [
     ],
   },
   {
+    title: "Disrupt",
+    url: "/disrupt/",
+    timezone: "All dates refer to AoE time (Anywhere on Earth).",
+    dates: [
+      { date: "2027-01-25", label: "January 25, 2027", milestone: "Abstract Submission Deadline" },
+      { date: "2027-02-01", label: "February 1, 2027", milestone: "Paper Submission Deadline" },
+      { date: "2027-04-01", label: "April 1, 2027", milestone: "Notification to Authors" },
+      { date: "2027-04-24", label: "April 24, 2027", milestone: "Camera-ready Due" },
+    ],
+  },
+  {
     title: "Workshop Proposals",
     url: "/workshops/",
     dates: [

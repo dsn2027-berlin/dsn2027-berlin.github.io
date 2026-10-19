@@ -24,6 +24,7 @@ export default {
         { title: "Industry Track", url: "/industry-track/" },
       ],
     },
+    { title: "Important Dates", url: "/important-dates/" },
     { title: "Workshops", url: "/workshops/" },
     {
       title: "Committees",

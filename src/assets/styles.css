@@ -689,6 +689,10 @@ a {
   }
 }
 
+.past-date {
+  text-decoration: line-through;
+}
+
 @media (max-width: 520px) {
   .home-header h2,
   .home-header p {

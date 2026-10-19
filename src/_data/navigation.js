@@ -18,10 +18,11 @@ export default {
     {
       title: "Call for Contributions",
       url: "/call-for-contributions/",
-      activeUrls: ["/call-for-contributions/", "/industry-track/"],
+      activeUrls: ["/call-for-contributions/", "/industry-track/", "/disrupt/"],
       children: [
         { title: "Research Track", url: "/call-for-contributions/" },
         { title: "Industry Track", url: "/industry-track/" },
+        { title: "Disrupt", url: "/disrupt/" },
       ],
     },
     { title: "Important Dates", url: "/important-dates/" },

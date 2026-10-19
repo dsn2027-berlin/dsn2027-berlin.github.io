@@ -15,7 +15,15 @@ const placeholderPages = [
 export default {
   items: [
     { title: "Home", url: "/" },
-    { title: "Call for Contributions", url: "/call-for-contributions/" },
+    {
+      title: "Call for Contributions",
+      url: "/call-for-contributions/",
+      activeUrls: ["/call-for-contributions/", "/industry-track/"],
+      children: [
+        { title: "Research Track", url: "/call-for-contributions/" },
+        { title: "Industry Track", url: "/industry-track/" },
+      ],
+    },
     { title: "Workshops", url: "/workshops/" },
     {
       title: "Committees",

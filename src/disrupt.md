@@ -85,6 +85,10 @@ To avoid potential bias, the Disrupt 27 PC co-Chairs are not allowed to (co)auth
 - Behrooz Sangchoolie, RISE Research Institutes of Sweden, Sweden
 - Fuqun Huang, Western Washington University, USA
 
+### Contact
+
+For further information please send an email to [disrupt@dsn.org](mailto:disrupt@dsn.org)
+
 ### Program Committee
 
 To be finalized.

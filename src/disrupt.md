@@ -28,6 +28,8 @@ _All dates refer to AoE time (Anywhere on Earth)._
 
 ### Submissions and Evaluation
 
+Disrupt 27 papers are submitted via EasyChair to the “DSN 2027: Disrupt” track: <https://easychair.org/conferences/?conf=dsn2027>.
+
 Submissions are limited to **4 pages + references** in the IEEE Computer Society format and will be reviewed and evaluated according to the following criteria:
 
 - **Value:** relevance of the research problem and justification why it is worth exploring.
@@ -36,8 +38,6 @@ Submissions are limited to **4 pages + references** in the IEEE Computer Society
 - **Presentation:** overall quality of the paper writing.
 
 Authors are strongly recommended to take into account the above evaluation criteria when preparing the submission.
-
-**The submission link will become available in good time prior to the deadline.**
 
 Accepted Disrupt 27 papers will be published in the supplementary volume of DSN proceedings. Given the emerging nature of the works published at Disrupt 27, and the size of the papers (4 pages + references), we anticipate that Disrupt 27 papers may lead to successful submissions of regular DSN papers in subsequent years.
 

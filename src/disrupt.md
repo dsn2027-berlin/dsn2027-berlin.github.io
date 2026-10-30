@@ -89,6 +89,16 @@ To avoid potential bias, the Disrupt 27 PC co-Chairs are not allowed to (co)auth
 
 For further information please send an email to [disrupt@dsn.org](mailto:disrupt@dsn.org)
 
-### Program Committee
+### Program Committee (under finalization)
 
-To be finalized.
+- Gustavo Callou, Federal Rural University of Pernambuco, Brazil
+- Mary Cummings, George Mason University, USA
+- Elias Duarte, Federal University of Parana, Brazil
+- Francesco Flammini, University of Florence, Italy
+- Pietro Liguori, University of Naples Federico II, Italy
+- Fumio Machida, University of Tsukuba, Japan
+- Juan Carlos Ruiz, Polytechnic University of Valencia, Spain
+- Horst Schirmeier, TU Dresden, Germany
+- Wilfried Steiner, TTTech Labs, Austria
+- Marcus Völp, University of Luxembourg, Luxembourg
+- Xingyu Zhao, Wuhan University, China

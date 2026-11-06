@@ -91,12 +91,15 @@ For further information please send an email to [disrupt@dsn.org](mailto:disrupt
 
 ### Program Committee (under finalization)
 
+- Jun Ai, Beihang University, China
+- Amy Babay, University of Pittsburg, USA
 - Gustavo Callou, Federal Rural University of Pernambuco, Brazil
 - Mary Cummings, George Mason University, USA
 - Elias Duarte, Federal University of Parana, Brazil
 - Francesco Flammini, University of Florence, Italy
 - Pietro Liguori, University of Naples Federico II, Italy
 - Fumio Machida, University of Tsukuba, Japan
+- Shahid Raza, University of Glasgow, Scotland
 - Juan Carlos Ruiz, Polytechnic University of Valencia, Spain
 - Horst Schirmeier, TU Dresden, Germany
 - Wilfried Steiner, TTTech Labs, Austria

@@ -97,6 +97,7 @@ For further information please send an email to [disrupt@dsn.org](mailto:disrupt
 - Mary Cummings, George Mason University, USA
 - Elias Duarte, Federal University of Parana, Brazil
 - Francesco Flammini, University of Florence, Italy
+- Ilir Gashi, City St George’s, University of London, UK
 - Pietro Liguori, University of Naples Federico II, Italy
 - Fumio Machida, University of Tsukuba, Japan
 - Shahid Raza, University of Glasgow, Scotland

@@ -103,6 +103,7 @@ For further information please send an email to [disrupt@dsn.org](mailto:disrupt
 - Shahid Raza, University of Glasgow, Scotland
 - Juan Carlos Ruiz, Polytechnic University of Valencia, Spain
 - Horst Schirmeier, TU Dresden, Germany
+- Carol Smidts, The Ohio State University, USA
 - Wilfried Steiner, TTTech Labs, Austria
 - Marcus Völp, University of Luxembourg, Luxembourg
 - Xingyu Zhao, Wuhan University, China

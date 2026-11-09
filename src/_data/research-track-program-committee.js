@@ -512,11 +512,6 @@ export default [
     "country": "Netherlands"
   },
   {
-    "name": "Robert Birke",
-    "affiliation": "University of Turin",
-    "country": "Italy"
-  },
-  {
     "name": "Roberto Natella",
     "affiliation": "Gran Sasso Science Institute (GSSI)",
     "country": "Italy"

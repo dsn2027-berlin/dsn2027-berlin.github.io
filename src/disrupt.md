@@ -89,7 +89,7 @@ To avoid potential bias, the Disrupt 27 PC co-Chairs are not allowed to (co)auth
 
 For further information please send an email to [disrupt@dsn.org](mailto:disrupt@dsn.org)
 
-### Program Committee (under finalization)
+### Program Committee
 
 - Jun Ai, Beihang University, China
 - Amy Babay, University of Pittsburg, USA
@@ -98,12 +98,15 @@ For further information please send an email to [disrupt@dsn.org](mailto:disrupt
 - Elias Duarte, Federal University of Parana, Brazil
 - Francesco Flammini, University of Florence, Italy
 - Ilir Gashi, City St George’s, University of London, UK
+- Jérémie Guiochet, LAAS-CNRS, France
 - Pietro Liguori, University of Naples Federico II, Italy
 - Fumio Machida, University of Tsukuba, Japan
+- José Alexandre D'Abruzzo Pereira, University of Coimbra, Portugal
 - Shahid Raza, University of Glasgow, Scotland
 - Juan Carlos Ruiz, Polytechnic University of Valencia, Spain
 - Horst Schirmeier, TU Dresden, Germany
 - Carol Smidts, The Ohio State University, USA
 - Wilfried Steiner, TTTech Labs, Austria
+- Mario Trapp, Fraunhofer IKS, Germany
 - Marcus Völp, University of Luxembourg, Luxembourg
 - Xingyu Zhao, Wuhan University, China

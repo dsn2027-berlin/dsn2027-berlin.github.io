@@ -60,7 +60,7 @@ All materials must be written in English up to 6 pages and must adhere to the IE
 
 Practical aspects of previously presented scientific papers in a recent conference or edition are welcome, it helps if a clear connection and added value is pointed out.
 
-Contributions must be in PDF. **Submission link to be announced.**
+Contributions must be in PDF. Submit your paper through [EasyChair](https://easychair.org/conferences/?conf=dsn2027) and select **DSN 2027 – Industry Track**.
 
 Submissions will undergo a single-blind review process.
 

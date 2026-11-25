@@ -35,6 +35,7 @@ export default {
         { title: "Organizing Committee", url: "/committees/" },
         { title: "Steering Committee", url: "/committees/steering-committee-chairs/" },
         { title: "Research Track PC", url: "/committees/research-track-program-committee/" },
+        { title: "Disrupt Track PC", url: "/committees/disrupt-track-program-committee/" },
       ],
     },
     {

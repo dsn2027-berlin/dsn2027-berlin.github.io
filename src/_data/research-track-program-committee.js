@@ -72,6 +72,11 @@ export default [
     "country": "Italy"
   },
   {
+    "name": "Archit Patke",
+    "affiliation": "SpaceX Super Intelligence",
+    "country": "United States of America",
+  },
+  {
     "name": "Barbara Gallina",
     "affiliation": "Mälardalen University",
     "country": "Sweden"
